@@ -1,0 +1,3 @@
+public interface   offer{
+ public void offer3();
+} 

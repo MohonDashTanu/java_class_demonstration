@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class  Fruits extends Food{
+Scanner sc=new Scanner (System.in);
+ private  String n="Fruits";
+ 
+  void mathod1(){super.m1(n);}
+   
+   String getname(){return n;}
+   void cn(){System.out.println("1:Apple\n2:Mango\n3:Orange");
+   int n=sc.nextInt();
+   if(n==1){ int n11=120,n12=200,n13=290;
+          System.out.println("Which one u like to buy \n1:Apple 1KG \nprice:120TK\n\n2:Apple 2KG\nprice:200TK\n\n3:Apple 3KG\nprice290Tk");
+            int m1=sc.nextInt();
+            System.out.println("please pay the bill");
+             int b1=sc.nextInt();
+             if(m1==1){buy(b1,n11);}  else if(m1==2){buy(b1,n12);} else if(m1==3){buy(b1,n13);} else {System.out.println("Wrong input");}
+   }
+   if(n==2){int n21=80,n22=130,n23=200;
+           System.out.println("Which one u like to buy \n1:Mango 1KG \nprice:80TK\n\n2:Mango 2KG\n price:130\n\n3:Mango 3KG\nprice:200TK");
+            int m2=sc.nextInt();
+            System.out.println("please pay the bill");
+             int b2=sc.nextInt();
+              if(m2==1){buy(b2,n21);}            
+            else if(m2==2){buy(b2,n22);}           
+            else if(m2==3){buy(b2,n23);} else {System.out.println("Wrong input");}}
+   
+   if(n==3){int n31=130,n32=210,n33=300;
+             System.out.println("Which one u like to buy \n1:Orange 1KG\nprice:130Tk\n\n2:Orange 2KG\n price:210TK\n\n3:Orange 3KG\nprice:300TK");
+            int m3=sc.nextInt();
+            System.out.println("please pay the bill here");
+            int b3=sc.nextInt();
+             if(m3==1){buy(b3,n31);}            
+             else if(m3==2){buy(b3,n32);}           
+              else if(m3==3){buy(b3,n33);}
+               else {System.out.println("Wrong input");}
+   }
+    
+   
+ 
+ }
+
+}

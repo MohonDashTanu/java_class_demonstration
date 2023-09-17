@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class Perfume extends Beautyproducts{
+Scanner sc=new Scanner (System.in);
+ private String n="Perfume";
+ public  void offer(){}
+ public void vat(){}
+  void mathod1(){super.m1(n);}
+   
+ String getname(){return n;}
+ void cn(){System.out.println("1:Cobra\n2:MONTBLANCE \n3:NAUTICA");
+   int n=sc.nextInt();
+   if(n==1){ int n11=84,n12=150,n13=200;
+          System.out.println("Which one u like to buy \n1:Cobra 50ml perfume \nprice:84Tk\n\n2:Cobra 100ml perfume\n price:150Tk\n\n3:Cobra 150ml perfume\nprice:200Tk");
+            int m1=sc.nextInt();
+            System.out.println("please pay the bill");
+             int b1=sc.nextInt();
+              if(m1==1){buy(b1,n11);}            
+             else if(m1==2){buy(b1,n12);}           
+             else if(m1==3){buy(b1,n13);} 
+             else {System.out.println("Wrong input");} }
+   if(n==2){int n21=1040,n22=2050,n23=30800;
+           System.out.println("Which one u like to buy \n1:MONTBLANCE normal perfume\nprice:1040Tk\n\n2:MONTBLANCE regular\n price:2050TK\n\n3:MONTBLANCE Special\nprice:30800");
+            int m2=sc.nextInt();
+            System.out.println("please pay the bill");
+             int b2=sc.nextInt();
+             if(m2==1){buy(b2,n21);}            
+             else if(m2==2){buy(b2,n22);}           
+             else if(m2==3){buy(b2,n23);} 
+             else {System.out.println("Wrong input");}    }
+   
+   if(n==3){int n31=20000,n32=38000,n33=99000;
+             System.out.println("Which one u like to buy \n1:NAUTICA regular\nprice:20,000Tk\n\n2:NAUTICA Advance\n price:38,000\n\n3:NAUTICA Special\nprice:99,000");
+            int m3=sc.nextInt();
+            System.out.println("please pay the bill here");
+            int b3=sc.nextInt();
+             if(m3==1){buy(b3,n31);}            
+             else  if(m3==2){buy(b3,n32);}           
+             else if(m3==3){buy(b3,n33);}
+             else {System.out.println("Wrong input");}  }
+ 
+ } 
+
+  
+}
